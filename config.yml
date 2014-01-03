@@ -1,0 +1,22 @@
+## workflow build config
+
+# id and name for the workflow (bundle id = domain.id)
+id: alfred-connect-to-file-server-workflow
+
+# base domain
+domain: com.tumblr.ramiroaraujo
+
+name: Connect to File Server Workflow
+description: Worflow to connect to Samba or AFP file servers, mounting them as volumes. It can list, add and delete available (configured) servers.
+created_by: Ramiro Araujo
+website: https://github.com/ramiroaraujo/alfred-connect-to-file-server-workflow
+readme: readme
+
+## development config
+
+# path is the relative path to the workflow in the project root
+path: workflow
+
+# If you are using Alfred's advanced Dropbox sync, indicate the path shown in
+# Alfred Preferences > Advanced > Syncing:
+dropbox: ~/Dropbox
